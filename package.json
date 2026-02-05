@@ -1,0 +1,18 @@
+{
+  "name": "somark-sync-extractor",
+  "version": "1.0.0",
+  "description": "Extract content from PDF and images using SoMark API",
+  "main": "index.ts",
+  "type": "module",
+  "keywords": ["openclaw", "plugin", "document", "extractor"],
+  "author": "Soul-Code",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Soul-Code/somark-sync-extractor.git"
+  },
+  "openclaw": {
+    "id": "somark-sync",
+    "entry": "index.ts"
+  }
+}
