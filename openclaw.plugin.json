@@ -1,0 +1,35 @@
+{
+  "id": "somark-sync",
+  "name": "SoMark Sync Extractor",
+  "version": "1.0.0",
+  "description": "Extract content from PDF and images using SoMark API",
+  "author": "SoMark",
+  "license": "MIT",
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "api_key": {
+        "type": "string",
+        "description": "SoMark API key (sk-...)"
+      },
+      "output_format": {
+        "type": "string",
+        "enum": ["markdown", "json", "both"],
+        "default": "both",
+        "description": "Output format"
+      },
+      "timeout": {
+        "type": "integer",
+        "default": 120,
+        "description": "Request timeout in seconds"
+      }
+    },
+    "required": ["api_key"],
+    "additionalProperties": false
+  },
+  "uiHints": {
+    "category": "productivity",
+    "keywords": ["document", "pdf", "extract", "ocr"],
+    "description": "Extract text and structure from PDF, PNG, JPG documents"
+  }
+}
