@@ -24,7 +24,7 @@
         "description": "Request timeout in seconds"
       }
     },
-    "required": ["api_key"],
+    "required": [],
     "additionalProperties": false
   },
   "uiHints": {
