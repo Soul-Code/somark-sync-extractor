@@ -12,7 +12,10 @@
     "url": "https://github.com/Soul-Code/somark-sync-extractor.git"
   },
   "openclaw": {
-    "id": "somark-sync",
-    "entry": "index.ts"
+    "extensions": {
+      "somark-sync": {
+        "entry": "index.ts"
+      }
+    }
   }
 }
