@@ -1,5 +1,5 @@
 {
-  "name": "somark-sync-extractor",
+  "name": "somark-sync",
   "version": "1.0.0",
   "description": "Extract content from PDF and images using SoMark API",
   "main": "index.ts",
