@@ -1,5 +1,5 @@
 {
-  "id": "somark-sync",
+  "id": "somark-sync-extractor",
   "name": "SoMark Sync Extractor",
   "version": "1.0.0",
   "description": "Extract content from PDF and images using SoMark API",

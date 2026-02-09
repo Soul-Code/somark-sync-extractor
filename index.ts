@@ -9,7 +9,7 @@ import { basename } from "path";
 const API_URL = "https://somark.soulcode.cn/api/v1/extract/acc_sync";
 
 const plugin = {
-  id: "somark-sync",
+  id: "somark-sync-extractor",
   name: "SoMark Sync Extractor",
   description: "Extract content from PDF and images using SoMark API",
   configSchema: {
@@ -29,7 +29,7 @@ const plugin = {
         default: 120,
       },
     },
-    required: ["api_key"],
+    required: [],
     additionalProperties: false,
   },
   register(api: OpenClawPluginApi) {
